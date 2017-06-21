@@ -1,4 +1,8 @@
 (function () {
+  'use strict'
+
+  if (!document.addEventListener) return // Check for IE9+
+
   var options = INSTALL_OPTIONS
 
   var TAG_LABELS = {
@@ -29,6 +33,6 @@
       CTA: element.textContent,
       type: TAG_LABELS[element.tagName] || TAG_LABELS.DEFAULT,
       pageTitle: document.title
-    });
+    })
   })
-})();
+}())
