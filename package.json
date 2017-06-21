@@ -1,0 +1,31 @@
+{
+  "name": "cloudflare-apps-segment",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "lint": "standard ./source/**/*.js || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segmentio/cloudflare-segment-app.git"
+  },
+  "author": "Segment.io Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/segmentio/cloudflare-segment-app/issues"
+  },
+  "homepage": "https://github.com/segmentio/cloudflare-segment-app#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^9.0.2"
+  },
+  "standard": {
+    "globals": [
+      "INSTALL",
+      "INSTALL_OPTIONS",
+      "INSTALL_SCOPE",
+      "INSTALL_ID"
+    ]
+  }
+}

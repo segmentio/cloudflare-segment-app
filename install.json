@@ -1,0 +1,29 @@
+{
+  "resources": {
+    "head": [
+      {
+        "type": "script",
+        "src": "./source/analytics.js"
+      },
+      {
+        "type": "script",
+        "src": "./source/app.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "writeKey": {
+        "title": "Segment Write Key",
+        "placeholder": "MbCIWshPusDBdC0kuLk3FWd8aUS4XhFwax",
+        "type": "string",
+        "order": 1
+      },
+      "autoPage": {
+        "title": "Automatically Track Page Views",
+        "type": "boolean",
+        "order": 2
+      }
+    }
+  }
+}
