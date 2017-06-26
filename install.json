@@ -23,34 +23,6 @@
         "title": "Automatically Track Page Views",
         "type": "boolean",
         "order": 2
-      },
-      "trackedActions": {
-        "title": "Tracked Actions",
-        "order": 1,
-        "type": "array",
-        "items": {
-          "title": "Tracked Action",
-          "type": "object",
-          "properties": {
-            "location": {
-              "required": true,
-              "title": "Element",
-              "description": "Select the link or button that should be tracked.",
-              "type": "string",
-              "format": "selector",
-              "order": 1
-            },
-            "label": {
-              "required": true,
-              "title": "Label",
-              "description": "What should the event be labeled in the Segment Dashboard?",
-              "placeholder": "Holiday Sale, Newsletter Sign-up, etc...",
-              "type": "string",
-              "order": 2,
-              "maxLength": 32
-            }
-          }
-        }
       }
     }
   }
